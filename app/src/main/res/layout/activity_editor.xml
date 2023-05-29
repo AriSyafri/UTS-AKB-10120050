@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    tools:context=".EditorActivity">
+
+    <TextView
+        android:id="@+id/edit_judul"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:textStyle="bold"
+        android:textColor="@color/black"
+        android:textSize="30sp"
+        android:text="Menampilkan Data"
+        android:layout_margin="20dp" />
+
+    <EditText
+        android:id="@+id/edit_tanggal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="text"
+        android:layout_margin="20dp"
+        android:hint="Tanggal"
+        android:autofillHints=""/>
+
+    <EditText
+        android:id="@+id/edit_judul"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="text"
+        android:layout_margin="20dp"
+        android:hint="Judul"
+        android:autofillHints=""/>
+
+    <EditText
+        android:id="@+id/edit_kategori"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="text"
+        android:layout_margin="20dp"
+        android:hint="kategori"
+        android:autofillHints=""/>
+
+    <EditText
+        android:id="@+id/edit_isi"
+        android:layout_margin="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="text"
+        android:hint="isi"
+        android:autofillHints=""/>
+
+    <Button
+        android:id="@+id/btn_save"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp"
+        android:text="simpan"/>
+
+</LinearLayout>

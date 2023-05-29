@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".HomeFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="15dp"
+        android:text="Selamat Datang di aplikasi memo10120050"
+        android:textSize="25sp"
+        android:gravity="center"
+        android:paddingBottom="20dp"/>
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:scaleType="centerCrop"
+        android:src="@drawable/id_home"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Tentang Aplikasi"
+            android:textSize="23sp"
+            android:gravity="center"
+            android:layout_margin="10dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="memo10120050 adalah sebuah aplikasi untuk mencatat kegiatan yang dilakukan berbasis android untuk penggunakan silahkan pilih menu catatan dibawah"
+            android:textSize="15sp"
+            android:gravity="center"
+            android:layout_margin="10dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Ketika memilih data yang diubah atau dihapus tekan pilihan yang diplih maka akan ada menu ubah dan hapus"
+            android:textSize="15sp"
+            android:gravity="center"
+            android:layout_margin="10dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Selamat Mencoba"
+            android:textSize="15sp"
+            android:gravity="center"
+            android:layout_margin="10dp"/>
+
+    </LinearLayout>
+
+</LinearLayout>
